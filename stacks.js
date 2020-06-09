@@ -11,16 +11,16 @@ var letters = []; // this is our stack
 
 var word = "racecar";
 
-var rword = "";
+var rword = ""; 
 
 // put letters of word into stack
-for (var i = 0; i < word.length; i++) {
+for (var i = 0; i < word.length; i++) { 
     letters.push(word[i]);
 }
 
 // pop off the stack in reverse order
 for (var i = 0; i < word.length; i++) {
-    rword += letters.pop();
+    rword += letters.pop(); 
 }
 
 if (rword === word) {
@@ -69,11 +69,11 @@ var myStack = new Stack();
 
 myStack.push(1);
 myStack.push(2);
-alert(myStack.peek());
-alert(myStack.pop());
-alert(myStack.peek());
-myStack.push("freeCodeCamp");
-alert(myStack.size());
-alert(myStack.peek());
-alert(myStack.pop());
-alert(myStack.peek());
+alert(myStack.peek()); // 2
+alert(myStack.pop()); // 2
+alert(myStack.peek()); // 1
+myStack.push("freeCodeCamp"); 
+alert(myStack.size()); // 2
+alert(myStack.peek()); // freeCodeCamp
+alert(myStack.pop()); // freeCodeCamp
+alert(myStack.peek()); // 1
