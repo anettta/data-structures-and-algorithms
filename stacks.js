@@ -1,8 +1,11 @@
 // STACKS
 
-// LIFO order
+
+// LIFO order such as stack of books or BACK button: the order of open websites in the browser 
 
 // functions: push, pop, peek, length
+
+// Pallindrome - word spelled the same backwards and forward
 
 var letters = []; // this is our stack
 
@@ -56,7 +59,7 @@ this.push = function(value) { // passing the value only when pushing
         return this.count;
     }
 
-    // returns the value at the end of the stack
+    // just returns the value at the end of the stack
     this.peek = function() {
         return this.storage[this.count-1];
     }
