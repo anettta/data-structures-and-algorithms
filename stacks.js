@@ -7,7 +7,7 @@
 
 // Pallindrome - word spelled the same backwards and forward
 
-var letters = []; // this is our stack
+var letters = []; // this is our stack ; array has all the functions of the stack
 
 var word = "racecar";
 
@@ -35,7 +35,7 @@ if (rword === word) {
 // creates a stack
 var Stack = function() {
 this.count = 0;
-this.storage = {};
+this.storage = {}; // empty object
 
 // adds a value onto the end of the stack
 this.push = function(value) { // passing the value only when pushing
@@ -60,7 +60,7 @@ this.push = function(value) { // passing the value only when pushing
     }
 
     // just returns the value at the end of the stack
-    this.peek = function() {
+    this.peek = function() { // we are not passing the value
         return this.storage[this.count-1];
     }
 }
