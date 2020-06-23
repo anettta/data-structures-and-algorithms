@@ -13,6 +13,7 @@ class Node {
 // each tree has only two branches; binary=two
 // left branch is smaller or equal to its parent
 // right branch is larger or equal to its parent
+// binary tree is ordered
 
 class BinarySearchTree { 
     constructor() {
