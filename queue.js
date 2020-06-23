@@ -1,15 +1,17 @@
 // Queues
+// first in first out
+// just like a printer
 
 function Queue () {
     collection = [];
     this.print = function() {
         alert(collection);
     };
-    this.enqueue = function(element) {
+    this.enqueue = function(element) { //pushes the first item to the queue
         collection.push(element);
     };
     this.dequeu = function() {
-        return collection.shift(); // pulls up and removes the first item of the array
+        return collection.shift(); // pulls off and removes the first item of the array
     };
     this.front = function() {
         return collection[0];
