@@ -2,6 +2,8 @@
 // invented 1953
 // time complexity : space O(n), search/insert/delete O(1) in average case and O(n) in the worst case
 // maps strings(keys) to numbers(hashes) through a hash function
+// mapping keys to values
+// match strings to numbers
 
 var hash = (string, max) => { // max is number of buckets within hash
     var hash = 0;
