@@ -1,4 +1,7 @@
-// head node has info and link to another node
+// a linked list is a data structure where elements are stored in a node
+// contains two key pieces of information:
+// the element itself and the reference to the next node
+// head node has its info and a link to another node
 
 // linked list has dynamic size
 // efficient insertions and deletions
